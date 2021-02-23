@@ -1,0 +1,302 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: black;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1190px;
+}
+
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 0;
+  background-color: black;
+}
+
+.lefting h1 {
+  color: white;
+  text-align: center;
+}
+
+.lefting {
+  position: relative;
+}
+
+.lefting img {
+  width: 40px;
+  position: absolute;
+  left: 420px;
+  top: 4px;
+}
+
+.righting {
+  text-align: center;
+  padding-top: 80px;
+  width: 100%;
+}
+
+.righting p {
+  float: left;
+  width: 16%;
+  border: 2px solid #c71585;
+}
+
+.righting a {
+  color: yellow;
+  opacity: 0.7;
+  display: inline-block;
+  background-color: rgba(160, 0, 50, 0.7);
+}
+
+.q {
+  padding: 2px 47px;
+}
+
+.fa-microphone {
+  color: green;
+  transition: all 1s;
+}
+
+.w {
+  padding: 2px 74px;
+}
+
+.faa-tada {
+  color: orange;
+  transition: all 2s;
+}
+
+
+.e {
+  padding: 2px 66px;
+}
+
+.faa-wrench {
+  color: lightgreen;
+  transition: all 3s;
+}
+
+.r {
+  padding: 2px 66px;
+}
+
+.faa-spin {
+  color: skyblue;
+  transition: all 4s;
+}
+
+.t {
+  padding: 2px 57px;
+}
+
+.faa-bounce {
+  color: rgba(0, 50, 100);
+  transition: all 5s;
+}
+
+.y {
+  padding: 2px 64px;
+}
+
+.faa-flash {
+  color: silver;
+  transition: all 6s;
+}
+
+.fas {
+  padding-right: 5px;
+}
+
+
+.righting a:hover {
+  opacity: 1;
+}
+
+.righting a:active {
+  color: green;
+}
+
+.image img {
+  width: 500px;
+  float: left;
+}
+
+.g {
+  border: 1px solid rgba(200, 200, 200, 0.4);
+  text-align: center;
+  width: 54%;
+  margin-left: 500px;
+  line-height: 35px;
+}
+
+.newman {
+  color: red;
+  opacity: 0.7;
+  display: inline-block;
+}
+
+.newman:hover {
+  opacity: 1;
+}
+
+.newman:active {
+  color: blue;
+}
+
+.p-class {
+  color: white;
+}
+
+.ima {
+  padding-top: 1px;
+}
+
+
+.lesoon-wrapper {
+
+}
+
+.lesson-wrapper h1 {
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.plofile {
+  color: white;
+  width: 100%;
+  border: 2px solid #c71585;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(160, 0, 50, 0.7);
+}
+
+.plo {
+  width: 50%;
+  border: 1px solid #c71585;
+}
+
+.fool {
+  color: white;
+  padding-top: 25px;
+}
+
+
+
+.d {
+
+}
+
+.d h2 {
+  border: outset;
+  padding-left: 2px;
+}
+
+
+.form {
+  color: white;
+  text-align: center;
+  border: 1px solid silver;
+  padding-bottom: 15px;
+}
+
+.ip {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 513px;
+  margin: 0 auto;
+  width: 500px;
+  height: 200px;
+  background-image: url(https://pics.prcm.jp/3749e2f36a8d5/70699367/jpeg/70699367_220x165.jpeg);
+  background-size: cover;
+  font-size: 20px;
+}
+
+.pp {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 548px;
+  margin-top: 8px;
+  padding: 5px 30px;
+  box-shadow: 0 5px rgba(160, 0, 50, 0.8);
+}
+
+.pp:active {
+  position: relative;
+  top: 5px;
+  box-shadow: none;
+}
+
+
+footer h4 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footing {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footing p {
+  width: 10%;
+  font-size: 10px;
+  text-align: center;
+}
+
+.footing a {
+  color: silver;
+  opacity: 0.6;
+}
+
+.footing a:hover {
+  opacity: 1;
+}
+
+.footing a:active {
+  color: green;
+}
+
+.message-wrapper {
+  position: relative;
+}
+
+.aa {
+  position: absolute;
+  top: 10px;
+  left: 140px;
+  font-size: 300px;
+  color: rgba(160, 0, 50, 0.3);
+}
+
+.bb {
+  position: absolute;
+  top: 18px;
+  left: 570px;
+  font-size: 30px;
+  color: rgba(160, 0, 50, 0.3);
+}
+
+.cc {
+  position: absolute;
+  top: 10px;
+  left: 980px;
+  font-size: 300px;
+  color: rgba(160, 0, 50, 0.3);
+}
